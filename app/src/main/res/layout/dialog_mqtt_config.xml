@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editTextDialogMC6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewDialogMC6"
+        app:layout_constraintTop_toBottomOf="@+id/editTextDialogMC5" />
+
+    <EditText
+        android:id="@+id/editTextDialogMC5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewDialogMC5"
+        app:layout_constraintTop_toBottomOf="@+id/editTextDialogMC4" />
+
+    <EditText
+        android:id="@+id/editTextDialogMC4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/editTextDialogMC5"
+        app:layout_constraintTop_toBottomOf="@+id/editTextDialogMC3" />
+
+    <EditText
+        android:id="@+id/editTextDialogMC3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/editTextDialogMC4"
+        app:layout_constraintTop_toBottomOf="@+id/editTextDialogMC2" />
+
+    <EditText
+        android:id="@+id/editTextDialogMC2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/editTextDialogMC3"
+        app:layout_constraintTop_toBottomOf="@+id/editTextDialogMC1" />//表示此控件的顶部边框与某个控件的底部边框水平对齐或在其下边
+
+    <EditText
+        android:id="@+id/editTextDialogMC1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/editTextDialogMC2"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/textViewDialogMC1"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:layout_marginStart="8dp"
+        android:text="用    户    名:"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextDialogMC1"
+        app:layout_constraintEnd_toEndOf="@+id/textViewDialogMC2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/editTextDialogMC1" />
+
+    <TextView
+        android:id="@+id/textViewDialogMC2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="密             码:"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextDialogMC2"
+        app:layout_constraintEnd_toEndOf="@+id/textViewDialogMC3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/editTextDialogMC2" />
+
+    <TextView
+        android:id="@+id/textViewDialogMC3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="IP    地    址:"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextDialogMC3"
+        app:layout_constraintEnd_toEndOf="@+id/textViewDialogMC4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/editTextDialogMC3" />
+
+    <TextView
+        android:id="@+id/textViewDialogMC4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="端    口    号 :"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextDialogMC4"
+        app:layout_constraintEnd_toEndOf="@+id/textViewDialogMC5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/editTextDialogMC4" />
+
+    <TextView
+        android:id="@+id/textViewDialogMC5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="订阅的主题:"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextDialogMC5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/editTextDialogMC5" />
+
+    <TextView
+        android:id="@+id/textViewDialogMC6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="发布的主题:"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextDialogMC6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/editTextDialogMC6" />
+
+</android.support.constraint.ConstraintLayout>
